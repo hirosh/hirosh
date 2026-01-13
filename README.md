@@ -3,12 +3,12 @@
 </div>
 
 <div align="center">
-![Top 6 Languages](output/top6_lang.svg)
-
   
-#  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hirosh&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B9D&icon_color=FF6B9D&include_all_commits=true&count_private=true)
+  ![Top 6 Languages](./output/top6_lang.svg)
   
-#  ![GitHub Streak](https://github-readme-stats.vercel.app/api?username=hirosh&theme=radical&hide_border=true&background=0D1117&ring=FF6B9D&fire=FF6B9D&currStreakLabel=FF6B9D)
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hirosh&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B9D&icon_color=FF6B9D&include_all_commits=true&count_private=true)
+  
+  ![GitHub Streak](https://github-readme-stats.vercel.app/api?username=hirosh&theme=radical&hide_border=true&background=0D1117&ring=FF6B9D&fire=FF6B9D&currStreakLabel=FF6B9D)
   
 </div>
 
