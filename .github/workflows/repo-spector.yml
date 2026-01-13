@@ -21,18 +21,33 @@ jobs:
           curl -L https://github.com/4okimi7uki/repo-spector/releases/latest/download/repo-spector -o repo-spector
           chmod +x ./repo-spector
 
+      - name: Debug - Check secrets
+        shell: bash
+        run: |
+          echo "GH_TOKEN is set: $([ -n '${{ secrets.GH_TOKEN }}' ] && echo 'yes' || echo 'no')"
+          echo "EXCLUDED_LANGUAGES is set: $([ -n '${{ secrets.EXCLUDED_LANGUAGES }}' ] && echo 'yes' || echo 'no')"
+
       - name: Run repo-spector CLI
         shell: bash
         env:
-          GH_TOKEN: ${{ secrets.GHTOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Error: GH_TOKEN is not set. Please check your repository secrets."
+            echo "Make sure you have set 'GH_TOKEN' in Settings > Secrets and variables > Actions > Repository secrets"
+            exit 1
+          fi
           mkdir -p output
-          ./repo-spector -x "${{ secrets.EXCLUDED_LANGUAGES }}"
+          if [ -n "${{ secrets.EXCLUDED_LANGUAGES }}" ]; then
+            ./repo-spector -x "${{ secrets.EXCLUDED_LANGUAGES }}"
+          else
+            ./repo-spector
+          fi
 
       - name: Commit and Push updated SVGs
         shell: bash
         env:
-          GH_TOKEN: ${{ secrets.GHTOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
