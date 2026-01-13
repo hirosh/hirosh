@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  
+  ### 💻 Language Stats
   ![Top 6 Languages](./output/top6_lang.svg)
   
   <!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hirosh&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B9D&icon_color=FF6B9D&include_all_commits=true&count_private=true)
@@ -12,13 +12,7 @@
   
 </div>
 
-<div align="center">
-  
-  ### 💻 Language Stats
-  
-  ![Language Stats](./output/language-stats.svg)
-  
-</div>
+
 
 ---
 
@@ -63,20 +57,20 @@
   
   ### 🏆 GitHub Trophies
   
-  ![trophy](https://github-profile-trophy.vercel.app/?username=hirosh&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=hirosh&theme=radical&no-frame=false&no-bg=false&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
   
 </div>
 
 ---
 
-<div align="center">
+<!-- <div align="center">
   
   ### 📝 Latest Blog Posts
   
   <!-- BLOG-POST-LIST:START -->
   <!-- BLOG-POST-LIST:END -->
   
-</div>
+</div> -->
 
 ---
 
@@ -85,7 +79,7 @@
   ### 🤝 Connect with me
   
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hirosh)
-  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com)
+  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/hirosh)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
   
 </div>
