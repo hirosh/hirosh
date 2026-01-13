@@ -49,26 +49,6 @@
   
 </div>
 
----
-
-<div align="center">
-  
-  ### 🏆 GitHub Trophies
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=hirosh&theme=radical&no-frame=false&no-bg=false&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-  
-</div>
-
----
-
-<!-- <div align="center">
-  
-  ### 📝 Latest Blog Posts
-  
-  <!-- BLOG-POST-LIST:START -->
-  <!-- BLOG-POST-LIST:END -->
-  
-</div> -->
 
 ---
 
